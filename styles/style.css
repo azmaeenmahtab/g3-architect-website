@@ -11,7 +11,7 @@
     justify-content: space-between;
     margin-bottom: 0px;
 }
-.nav-title{
+.title{
     font-size: 3rem;
 }
 nav > ul {
@@ -59,4 +59,38 @@ nav li {
     width: 1200px;
     height: 500px;
     padding-bottom: 20px;
+}
+/* feature part */
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+}
+.feature-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.feature-grid img {
+    width: 250px;
+    height: 250px;
+}
+.ash-color{
+    color: #727272;
+    font-weight: 500;
+}
+.orange-color{
+    color: #FF900E;
+}
+.description{
+    font-size: 1rem;
+}
+.feature-content{
+    width:530px ;
+    height: 300px;
+}
+.feature-title{
+    margin-bottom: 0px;
 }
