@@ -2,12 +2,14 @@
 *{
     font-family: "Work Sans", sans-serif;
 }
+/* nav-bar style */
 .navigationbar{
     background-color: #ff8f0e38;
     display: flex;
     align-items: center;
     padding: 2rem 9rem;
     justify-content: space-between;
+    margin-bottom: 0px;
 }
 .nav-title{
     font-size: 3rem;
@@ -19,4 +21,42 @@ nav > ul {
 }
 nav li {
     margin-right: 3rem;
+}
+/* banner content work */
+.banner{
+    background-color: #ff8f0e38;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.banner-content{
+    width: 862px;
+}
+.banner-title{
+    font-size: 4rem;
+}
+.description{
+    font-size: 1rem;
+}
+.primary-btn{
+    width: 180px;
+    height: 60px;
+    border: none;
+    background-color: #FF900E;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+}
+/* banner pic */
+.bannerpic{
+    background-color:#ff8f0e38 ;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.bannerpic img {
+    width: 1200px;
+    height: 500px;
+    padding-bottom: 20px;
 }
