@@ -12,7 +12,7 @@
     margin-bottom: 0px;
 }
 .title{
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 nav > ul {
     display: flex;
@@ -29,6 +29,7 @@ nav li {
     display: flex;
     justify-content: center;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 .banner-content{
     width: 862px;
@@ -44,7 +45,7 @@ nav li {
     height: 60px;
     border: none;
     background-color: #FF900E;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
     border-radius: 8px;
 }
@@ -53,20 +54,19 @@ nav li {
     background-color:#ff8f0e38 ;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    padding: 20px 170px;
 }
 .bannerpic img {
-    width: 1200px;
-    height: 500px;
-    padding-bottom: 20px;
+    width: 100%;
 }
 /* feature part */
 .features{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
-    padding: 100px;
+    gap: 80px;
+    padding: 70px 120px 80px 180px ;
+    margin-top: 0px;
 }
 .feature-grid{
     display: grid;
@@ -74,8 +74,7 @@ nav li {
     gap: 10px;
 }
 .feature-grid img {
-    width: 250px;
-    height: 250px;
+    width: 100%;
 }
 .ash-color{
     color: #727272;
@@ -86,6 +85,7 @@ nav li {
 }
 .description{
     font-size: 1rem;
+    color:#727272 ;
 }
 .feature-content{
     width:530px ;
@@ -95,7 +95,93 @@ nav li {
     margin-bottom: 0px;
 }
 /* experience banner */
+.exp-banner{
+    display: flex;
+    max-width: 1440px;
+    margin: 100px;
+}
+.exp-banner-content{
+    width: 560px;
+    height: 1050px;
+}
 .exp-box-title{
     font-size: 20px;
     font-weight: 600;
+}
+.exp-div{
+    box-shadow: 5px 5px 10px 5px #d2d0d039;
+    border-radius: 8px;
+    padding: 16px;
+}
+.experience-div{
+    background-color: #FF900E;
+    width: 340px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding:20px;
+    border-radius: 8px;
+}
+.exp-bold{
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.navigationbar{
+    padding: 50px;
+}
+.exp-banner-pic img{
+    width: 90%;
+    height: 90%;
+}
+.exp-banner-pic{;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .navigationbar{
+        flex-direction: column;
+    }  
+    .bannerpic{
+        padding: 20px 20px;
+    }  
+    .features{
+        padding: 10px;
+    }
+.features{
+    flex-direction: column;
+}
+.feature-content{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+.banner-content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.feature-grid{
+    grid-template-columns: 1fr;
+}
+
 }
