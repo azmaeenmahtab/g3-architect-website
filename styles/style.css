@@ -94,3 +94,8 @@ nav li {
 .feature-title{
     margin-bottom: 0px;
 }
+/* experience banner */
+.exp-box-title{
+    font-size: 20px;
+    font-weight: 600;
+}
