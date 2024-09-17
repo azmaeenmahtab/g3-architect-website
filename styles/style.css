@@ -145,9 +145,46 @@ nav li {
     width: 93%;
 
 }
+/* fact section style */
+.fact-container{
+    max-width: 1440px;
+    margin: 0px 150px;
+}
+.section-title{
+    font-size: 45px;
 
-
-
+}
+.fact-container .section-title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.fact-container .description{
+    margin-bottom: 26px;
+}
+.card-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.card{
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    padding: 40px;
+}
+.card-num{
+    font-size: 45px;
+    color: #424242;
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.card-description{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
 
 
 
@@ -212,6 +249,13 @@ nav li {
 .exp-banner-picture img{
     margin-left: 13px;
 }
+.card-container{
+    flex-direction: column;
+    gap: 15px;
+}
+.fact-container {
+    margin: 0px 10px;
+}
 
 }
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -227,6 +271,16 @@ nav li {
     }
     .exp-banner-picture img{
         width: 95%;
+    }
+    .fact-container{
+        margin: 0px 50px;
+    }
+    .card-container {
+        gap: 10px;
+    }
+    .exp-banner-picture{
+        /* padding-bottom: 0px; */
+        height: 1150px;
     }
     
 }
