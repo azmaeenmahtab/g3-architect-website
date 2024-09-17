@@ -201,6 +201,8 @@ nav li {
 }
 .sponsor-container{
     display: flex;
+   
+    justify-content: center;
     justify-content: space-evenly;
 }
 .sponsor-container img{
@@ -276,6 +278,11 @@ nav li {
 .fact-container {
     margin: 0px 10px;
 }
+.sponsor-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
 
 }
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -301,6 +308,11 @@ nav li {
     .exp-banner-picture{
         /* padding-bottom: 0px; */
         height: 1150px;
+    }
+    .sponsor-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
     
 }
