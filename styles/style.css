@@ -106,7 +106,7 @@ nav li {
     margin: 0px 150px;
 }
 .exp-banner-content{
-    min-width:580px;
+    width:586px;
     margin-right: 30px;
 }
 .exp-banner-content .title{
@@ -141,7 +141,7 @@ nav li {
 }
 .exp-banner-picture img{
     margin-left: 40px;
-    height: 95%;
+    height: 85%;
     width: 93%;
 
 }
@@ -193,6 +193,13 @@ nav li {
 }
 .feature-grid{
     grid-template-columns: 1fr;
+}
+.exp-banner{
+    flex-direction: column;
+    margin-left: 10px;
+}
+.exp-banner-content{
+    width: 100%;
 }
 
 }
