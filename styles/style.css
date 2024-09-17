@@ -172,7 +172,14 @@ nav li {
 @media screen and (max-width:576px) {
     .navigationbar{
         flex-direction: column;
-    }  
+    } 
+    .navigationbar .title {
+        margin: 0px;
+    }
+    nav > ul {
+        margin: 0px;
+        margin-top: 20px;
+    }
     .bannerpic{
         padding: 20px 20px;
     }  
@@ -197,9 +204,29 @@ nav li {
 .exp-banner{
     flex-direction: column;
     margin-left: 10px;
+    margin-right: 10px;
 }
 .exp-banner-content{
     width: 100%;
 }
+.exp-banner-picture img{
+    margin-left: 13px;
+}
 
+}
+@media screen and (min-width:576px) and (max-width:960px) {
+    .bannerpic {
+        padding: 20px 50px;
+    }
+    .features{
+        padding: 50px;
+    }
+    .exp-banner {
+        flex-direction: column;
+        margin: 0px 50px;
+    }
+    .exp-banner-picture img{
+        width: 95%;
+    }
+    
 }
