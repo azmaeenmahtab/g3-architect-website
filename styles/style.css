@@ -93,21 +93,26 @@ nav li {
     color:#727272 ;
 }
 .feature-content{
-    width:530px ;
-    height: 300px;
+    width:100%;
 }
 .feature-title{
     margin-bottom: 0px;
+    margin-left: 0px;
 }
 /* experience banner */
 .exp-banner{
     display: flex;
     max-width: 1440px;
-    margin: 100px;
+    margin: 0px 100px;
 }
 .exp-banner-content{
-    width: 560px;
-    height: 1050px;
+    /* width:100%; */
+    margin-right: 80px;
+}
+.exp-banner-content .title{
+    border-left: 5px solid #FF900E;
+    margin-left: 0px;
+    padding-left: 10px;
 }
 .exp-box-title{
     font-size: 20px;
@@ -116,7 +121,7 @@ nav li {
 .exp-div{
     box-shadow: 0px 5px 30px 0px #d2d0d039;
     border-radius: 8px;
-    padding: 16px;
+    padding: 16px 20px;
 }
 .experience-div{
     background-color: #FF900E;
@@ -126,19 +131,22 @@ nav li {
     text-align: center;
     padding:20px;
     border-radius: 8px;
+    position: relative;
+    bottom: 180px;
 }
 .exp-bold{
     font-size: 65px;
     font-weight: 700;
     margin-bottom: 0px;
 }
-.navigationbar{
-    padding: 50px;
-}
-.exp-banner-pic img{
-    width: 90%;
+.exp-banner-picture img{
+    margin-left: 70px;
+    /* width: 100%; */
     height: 90%;
+    /* width: 90%; */
+
 }
+
 
 
 
