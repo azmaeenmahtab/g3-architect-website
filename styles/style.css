@@ -66,6 +66,7 @@ nav li {
 }
 /* feature part */
 .features{
+    /* max-width: 1440px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,8 +186,27 @@ nav li {
     margin-bottom: 0px;
     margin-top: 8px;
 }
+/* sponsor section */
+.sponsor-section{
+    text-align: center;
+    max-width: 1440px;
 
-
+}
+.sponsor-section .section-title{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.sponsor-section .description{
+    margin-bottom: 46px;
+}
+.sponsor-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sponsor-container img{
+    width: 150px;
+    height: 50px;
+}
 
 
 
