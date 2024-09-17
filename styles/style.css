@@ -203,11 +203,26 @@ nav li {
     display: flex;
    
     justify-content: center;
-    justify-content: space-evenly;
+    gap: 100px;
+    max-width: 1440px;
+    margin: 0px 150px;
 }
 .sponsor-container img{
     width: 150px;
     height: 50px;
+}
+/* footer section */
+.footer-description{
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #FFF4E7;
+    margin: 0px 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 200px;
 }
 
 
@@ -283,6 +298,10 @@ nav li {
     align-items: center;
     gap: 15px;
 }
+.footer-description{
+    margin: 50px 10px;
+    text-align: center;
+}
 
 }
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -314,5 +333,7 @@ nav li {
         align-items: center;
         gap: 15px;
     }
-    
+    .footer-description{
+        margin: 80px 50px 100px 50px;
+    }    
 }
